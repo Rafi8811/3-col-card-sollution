@@ -1,0 +1,128 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 15px;
+	section{
+		padding-top: 10rem;
+		padding-bottom: 8rem;
+		background-color:  	#f2f2f2;
+		.card-container{
+			max-width: 66%;
+			margin: 0px 17%;
+			@media only screen and (max-width: 1200px){
+				max-width:70%;
+				margin:0px 15%;
+			}
+			@media only screen and (max-width: 1100px){
+				max-width:80%;
+				margin:0px 10%;
+			}
+			@media only screen and (max-width: 800px){
+				max-width:90%;
+				margin:0px 5%;
+			}
+			@media only screen and (max-width: 700px){
+				    max-width: 86%;
+   					 margin: 0px 7%;
+
+			}
+			@media only screen and (max-width: 450px){
+				max-width: 76%;
+				margin: 0px 12%;
+			}
+			.row{
+				justify-content: center;
+				align-items: center;
+				flex-direction: row;
+				@media only screen and (max-width: 700px){
+					flex-direction:column;
+				}
+				.single-box{
+					padding: 3.5rem;
+					width: 33.333333%;
+					cursor: default;
+					@media only screen and (max-width: 1000px){
+						padding:2rem;
+					}
+					@media only screen and (max-width: 700px){
+					   padding:3.25rem;
+					   width:100%;
+
+				    }
+					.logo{
+						padding-bottom: 2.5rem;
+					}
+					h1{
+						font-family: 'Big Shoulders Display', cursive;
+						padding-bottom: 2.5rem;
+						font-size: 36px;
+						font-weight: 700;
+						color: white;
+						text-transform: uppercase;
+						@media only screen and (max-width: 500px){
+							padding-bottom:2rem;
+						}
+					}
+					p{
+						font-family: 'Lexend Deca', sans-serif;
+						font-size: 16px;
+						color: white;
+						opacity: 0.75;
+						line-height: 1.65rem;
+						padding-bottom: 5rem;
+						font-weight: 400;
+						@media only screen and (max-width: 650px){
+							padding-bottom:2rem;
+						}
+					}
+					a{
+						text-decoration: none;
+						background-color: white;
+						padding: 1rem 2rem;
+						border-radius: 50px;
+						border: 2px solid transparent;
+						font-family: 'Lexend Deca', sans-serif;
+                        transition: all 0.35s ease-in 0s;
+
+
+					}
+					a:hover,.sadan-btn:hover,.suv-btn:hover,.luxury-btn:hover{
+						color: white;
+						background-color: transparent;
+						border: 2px solid white;
+						cursor: pointer;
+					}
+					.sadan-btn{
+						color: hsl(31, 77%, 52%) ;
+					}
+					.suv-btn{
+						color: hsl(184, 100%, 22%) ;
+					}
+					.luxury-btn{
+						color: hsl(179, 100%, 13%) ;
+					}
+
+				}
+				.sadan{
+					background-color: hsl(31, 77%, 52%);
+				}
+				.suv{
+					background-color: hsl(184, 100%, 22%);
+				}
+				.cruse{
+					background-color: hsl(179, 100%, 13%);
+				}
+
+			}
+		}
+		.end{
+			display: flex;
+			justify-content: center;
+			padding-top: 1rem;
+			font-weight: bold;
+			a{
+				padding-left: 0.5rem;
+			}
+		}
+	}
+}
