@@ -1,0 +1,120 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px; }
+body section {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: #f2f2f2; }
+body section .card-container {
+  max-width: 65%;
+  margin: 0px 17.5%; }
+@media only screen and (min-width: 1900px) {
+  body section .card-container {
+    max-width: 100%;
+    padding: 0px 120px; } }
+@media only screen and (max-width: 1200px) {
+  body section .card-container {
+    max-width: 70%;
+    margin: 0px 15%; } }
+@media only screen and (max-width: 1100px) {
+  body section .card-container {
+    max-width: 80%;
+    margin: 0px 10%; } }
+@media only screen and (max-width: 800px) {
+  body section .card-container {
+    max-width: 90%;
+    margin: 0px 5%; } }
+@media only screen and (max-width: 700px) {
+  body section .card-container {
+    max-width: 86%;
+    margin: 0px 7%; } }
+@media only screen and (max-width: 450px) {
+  body section .card-container {
+    max-width: 76%;
+    margin: 0px 12%; } }
+body section .card-container .row {
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+@media only screen and (max-width: 700px) {
+  body section .card-container .row {
+    flex-direction: column; } }
+body section .card-container .row .single-box {
+  padding: 3.5rem;
+  width: 33.333333%;
+  cursor: default; }
+@media only screen and (max-width: 1000px) {
+  body section .card-container .row .single-box {
+    padding: 2rem; } }
+@media only screen and (max-width: 700px) {
+  body section .card-container .row .single-box {
+    padding: 3.25rem;
+    width: 100%; } }
+body section .card-container .row .single-box .logo {
+  padding-bottom: 2.5rem; }
+body section .card-container .row .single-box h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  padding-bottom: 2.5rem;
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase; }
+@media only screen and (max-width: 500px) {
+  body section .card-container .row .single-box h1 {
+    padding-bottom: 2rem; } }
+body section .card-container .row .single-box p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 16px;
+  color: white;
+  opacity: 0.75;
+  line-height: 1.65rem;
+  padding-bottom: 5rem;
+  font-weight: 400; }
+@media only screen and (max-width: 650px) {
+  body section .card-container .row .single-box p {
+    padding-bottom: 2rem; } }
+body section .card-container .row .single-box a {
+  text-decoration: none;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  font-family: 'Lexend Deca', sans-serif;
+  transition: all 0.35s ease-in 0s; }
+body section .card-container .row .single-box a:hover, body section .card-container .row .single-box .sadan-btn:hover, body section .card-container .row .single-box .suv-btn:hover, body section .card-container .row .single-box .luxury-btn:hover {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer; }
+body section .card-container .row .single-box .sadan-btn {
+  color: #e38826; }
+body section .card-container .row .single-box .suv-btn {
+  color: #006970; }
+body section .card-container .row .single-box .luxury-btn {
+  color: #004241; }
+body section .card-container .row .sadan {
+  background-color: #e38826;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem; }
+@media only screen and (max-width: 700px) {
+  body section .card-container .row .sadan {
+    border-bottom-left-radius: 0rem;
+    border-top-right-radius: 0.5rem; } }
+body section .card-container .row .suv {
+  background-color: #006970; }
+body section .card-container .row .cruse {
+  background-color: #004241;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem; }
+@media only screen and (max-width: 700px) {
+  body section .card-container .row .cruse {
+    border-top-right-radius: 0rem;
+    border-bottom-left-radius: 0.5rem; } }
+body section .end {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  font-weight: bold; }
+body section .end a {
+  padding-left: 0.5rem; }
